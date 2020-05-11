@@ -1,6 +1,8 @@
 This repository implements Logistic Regression with Nesterov's Accelerated Gradient from scratch with NumPy.
 The implemented algorithm provides identical classification performance to sklearn logistic regression function.
 
+![Classification performance comparison](./sk_nag_evaluation.png)
+
 The dataset used for this demo is the Credit Card Fraud Detection dataset from Kaggle.
 It is a difficult dataset due to high class imbalance, and more chances for the algorithm to oscillate / diverge.
 This is avoided due to the look-ahead in Nesterov's method.
